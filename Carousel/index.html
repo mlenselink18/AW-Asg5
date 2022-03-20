@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <link href="../styles/carousel.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<header>
+    <h1>About Us</h1>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../WorkThrough/index.html">Work Through</a></li>
+        <li><a href="../Reservations/index.html">Reservations</a></li>
+        <li><a href="../Carousel/index.html">Image Carousel</a></li>
+    </ul>
+</nav>
+<br>
+<body>
+    <main>
+        <ul id="slider">
+            <li>
+                <img src="../AW_A05_Carousel_images/images/building_01.jpg" alt="" title="Front">
+            </li>
+            <li>
+                <img src="../AW_A05_Carousel_images/images/building_02.jpg" alt="" title="Left Side">
+            </li>
+            <li>
+                <img src="../AW_A05_Carousel_images/images/building_03.jpg" alt="" title="Green">
+            </li>
+            <li>
+                <img src="../AW_A05_Carousel_images/images/building_04.jpg" alt="" title="Meeting Room">
+            </li>
+            <li>
+                <img src="../AW_A05_Carousel_images/images/building_05.jpg" alt="" title="Screen">
+            </li>
+        </ul>
+    </main>
+    <script src="Carousel.js"></script>
+</body>
+</html>
